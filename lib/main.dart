@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:assignment_module_15_task_manager_app/ui/screens/splash_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(TaskManagerApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class TaskManagerApp extends StatelessWidget {
+  const TaskManagerApp({super.key});
 
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
